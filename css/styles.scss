@@ -14,5 +14,69 @@ $veryDarkViolet: hsl(260, 8%, 14%);
 }
 body {
 	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////
+header {
+	nav {
+		display: flex;
+		padding: 25px;
+		background-color: blue;
+		li {
+			list-style: none;
+			padding: 0 15px;
+			color: $grayishViolet;
+		}
+		.signUp {
+			button {
+				padding: 15px 25px;
+				font-size: 18px;
+				color: white;
+				font-weight: bolder;
+				border: none;
+				border-radius: 25px;
+				background-color: $cyan;
+			}
+		}
+	}
+}
+#section1 {
+	background-color: red;
+	.content-top {
+		padding: 100px;
+		display: flex;
+		.left-side {
+			width: 35%;
+			padding-left: 100px;
+			h1 {
+				font-size: 3rem;
+				line-height: 50px;
+				color: $darkViolet;
+			}
+			p {
+				color: $grayishViolet;
+				padding: 25px 0;
+			}
+			button {
+				padding: 15px 25px;
+				font-size: 18px;
+				color: white;
+				font-weight: bolder;
+				border: none;
+				border-radius: 25px;
+				background-color: $cyan;
+			}
+		}
+		.right-image {
+			position: absolute;
+			left: 55%;
+			top: 15%;
+		}
+		#link-shortener {
+			background-color: green;
+			height: 150px;
+			width: 100%;
+			// z-index: 500;
+		}
+	}
+}

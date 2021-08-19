@@ -8,5 +8,79 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  background-color: blue;
+}
+
+header nav li {
+  list-style: none;
+  padding: 0 15px;
+  color: #9e9aa7;
+}
+
+header nav .signUp button {
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 25px;
+  background-color: #2acfcf;
+}
+
+#section1 {
+  background-color: red;
+}
+
+#section1 .content-top {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section1 .content-top .left-side {
+  width: 35%;
+  padding-left: 100px;
+}
+
+#section1 .content-top .left-side h1 {
+  font-size: 3rem;
+  line-height: 50px;
+  color: #3b3054;
+}
+
+#section1 .content-top .left-side p {
+  color: #9e9aa7;
+  padding: 25px 0;
+}
+
+#section1 .content-top .left-side button {
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 25px;
+  background-color: #2acfcf;
+}
+
+#section1 .content-top .right-image {
+  position: absolute;
+  left: 55%;
+  top: 15%;
+}
+
+#section1 .content-top #link-shortener {
+  background-color: green;
+  height: 150px;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
